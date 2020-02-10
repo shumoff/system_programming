@@ -36,11 +36,11 @@ build PHONY: phony
 
 # Build rules for targets
 
-build src/25a6634@@main.cpp@exe/main.cpp.o: cpp_COMPILER ../src/main.cpp
- DEPFILE = src/25a6634@@main.cpp@exe/main.cpp.o.d
- ARGS = -Isrc/25a6634@@main.cpp@exe -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g
+build src/25a6634@@task_1@exe/main.cpp.o: cpp_COMPILER ../src/main.cpp
+ DEPFILE = src/25a6634@@task_1@exe/main.cpp.o.d
+ ARGS = -Isrc/25a6634@@task_1@exe -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g
 
-build src/main.cpp: cpp_LINKER src/25a6634@@main.cpp@exe/main.cpp.o
+build src/task_1: cpp_LINKER src/25a6634@@task_1@exe/main.cpp.o
  LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed
 
 # Test rules
@@ -89,7 +89,7 @@ build meson-uninstall: CUSTOM_COMMAND PHONY
 
 build uninstall: phony meson-uninstall
 
-build all: phony src/main.cpp
+build all: phony src/task_1
 
 build clean: phony meson-clean
 

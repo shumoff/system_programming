@@ -1,8 +1,8 @@
 [
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/build",
-    "command": "c++ -Isrc/25a6634@@main.cpp@exe -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/25a6634@@main.cpp@exe/main.cpp.o' -MF 'src/25a6634@@main.cpp@exe/main.cpp.o.d' -o 'src/25a6634@@main.cpp@exe/main.cpp.o' -c ../src/main.cpp",
+    "command": "c++ -Isrc/25a6634@@task_1@exe -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/25a6634@@task_1@exe/main.cpp.o' -MF 'src/25a6634@@task_1@exe/main.cpp.o.d' -o 'src/25a6634@@task_1@exe/main.cpp.o' -c ../src/main.cpp",
     "file": "../src/main.cpp",
-    "output": "src/25a6634@@main.cpp@exe/main.cpp.o"
+    "output": "src/25a6634@@task_1@exe/main.cpp.o"
   }
 ]

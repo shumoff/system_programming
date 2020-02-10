@@ -1,4 +1,4 @@
-Build started at 2020-02-10T04:15:14.969695
+Build started at 2020-02-10T19:42:24.469002
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -14,8 +14,8 @@ Build machine cpu: x86_64
 Build targets in project: 1
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
 Running compile:
-Working directory:  /tmp/tmp02jvootf
-Command line:  c++ /tmp/tmp02jvootf/testfile.cpp -o /tmp/tmp02jvootf/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
+Working directory:  /tmp/tmpc9sx8zfl
+Command line:  c++ /tmp/tmpc9sx8zfl/testfile.cpp -o /tmp/tmpc9sx8zfl/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
 
 Code:
  int i = static_cast<int>(0);
@@ -25,8 +25,8 @@ Compiler stderr:
  
 Compiler accepts -std=c++11: YES
 Running compile:
-Working directory:  /tmp/tmptwtylaks
-Command line:  c++ /tmp/tmptwtylaks/testfile.cpp -o /tmp/tmptwtylaks/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmp618r9xkd
+Command line:  c++ /tmp/tmp618r9xkd/testfile.cpp -o /tmp/tmp618r9xkd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  
