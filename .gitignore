@@ -1,7 +1,7 @@
 # CLion
 .idea
 cmake-build-debug/
-CMakeLists.txt
+task_2/CMakeLists.txt
 
 # Prerequisites
 *.d
