@@ -1,8 +1,8 @@
 [
   {
-    "directory": "/home/shumoff/CLionProjects/system_programming/build",
-    "command": "c++ -Isrc/25a6634@@task_1@exe -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/25a6634@@task_1@exe/main.cpp.o' -MF 'src/25a6634@@task_1@exe/main.cpp.o.d' -o 'src/25a6634@@task_1@exe/main.cpp.o' -c ../src/main.cpp",
-    "file": "../src/main.cpp",
-    "output": "src/25a6634@@task_1@exe/main.cpp.o"
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_2/build",
+    "command": "c++ -Isrc/task_2/f30134e@@task_2@exe -Isrc/task_2 -I../src/task_2 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/task_2/f30134e@@task_2@exe/main.cpp.o' -MF 'src/task_2/f30134e@@task_2@exe/main.cpp.o.d' -o 'src/task_2/f30134e@@task_2@exe/main.cpp.o' -c ../src/task_2/main.cpp",
+    "file": "../src/task_2/main.cpp",
+    "output": "src/task_2/f30134e@@task_2@exe/main.cpp.o"
   }
 ]

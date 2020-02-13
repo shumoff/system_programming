@@ -1,10 +1,2 @@
-system_programming_src = files([
-'main.cpp'
-])
-executable(
-'task_2',
-include_directories: include_directories('.'),
-sources: system_programming_src,
-dependencies: [],
-install: true
-)
+src = include_directories('.')
+subdir('task_2')

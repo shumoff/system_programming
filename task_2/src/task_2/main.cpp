@@ -64,14 +64,14 @@ void my_test() {
 
 
 void gankevich_test() {
-    Vector<std::ofstream> threads_vec;
-    size_t threads_amount = 7;
-    for (size_t i = 0; i != threads_amount; ++i) {
-        std::ofstream thread_file("file_" + std::to_string(i) + ".txt");
-        threads_vec.push_back(std::move(thread_file));
+    Vector<std::ofstream> streams_vec;
+    size_t streams_amount = 7;
+    for (size_t i = 0; i != streams_amount; ++i) {
+        std::ofstream stream_file("file_" + std::to_string(i) + ".txt");
+        streams_vec.push_back(std::move(stream_file));
     }
-    std::shuffle(threads_vec.begin(), threads_vec.end(), std::random_device());
-    for (size_t i = 0; i != threads_amount; ++i) {
-        threads_vec[i] << i << std::endl;
+    std::shuffle(streams_vec.begin(), streams_vec.end(), std::random_device());
+    for (size_t i = 0; i != streams_amount; ++i) {
+        streams_vec[i] << i << std::endl;
     }
 }
