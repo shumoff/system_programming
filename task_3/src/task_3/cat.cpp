@@ -16,7 +16,6 @@ std::array<T, firstSize + secondSize> cat(std::array<T, firstSize> const first_a
     return res_array;
 }
 
-
 template <class firstType, class ... Types>
 auto cat(firstType first_array, Types ... arrays) {
     if constexpr (sizeof...(arrays) > 0) {

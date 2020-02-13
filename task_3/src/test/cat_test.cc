@@ -1,5 +1,4 @@
 #include <gtest/gtest.h>
-#include <array>
 #include "task_3/cat.cpp"
 
 TEST(cat, cat_1_array) {
@@ -10,7 +9,6 @@ TEST(cat, cat_1_array) {
     EXPECT_EQ(res_array[1], 2);
     EXPECT_EQ(res_array[2], 3);
     EXPECT_EQ(res_array.size(), size);
-
 }
 
 TEST(cat, cat_2_arrays) {
@@ -42,5 +40,4 @@ TEST(cat, cat_3_arrays) {
     EXPECT_EQ(res_array[7], 8.0f);
     EXPECT_EQ(res_array[8], 9.0f);
     EXPECT_EQ(res_array.size(), size);
-
 }

@@ -1,67 +1,67 @@
 [
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o' -MF 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o.d' -o 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o' -c ../src/task_3/main.cpp",
+    "command": "c++ -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o' -MF 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o.d' -o 'src/task_3/6fc89d1@@task_3@exe/main.cpp.o' -c ../src/task_3/main.cpp",
     "file": "../src/task_3/main.cpp",
     "output": "src/task_3/6fc89d1@@task_3@exe/main.cpp.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o' -MF 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o.d' -o 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o' -c ../src/task_3/message.cpp",
+    "command": "c++ -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o' -MF 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o.d' -o 'src/task_3/6fc89d1@@task_3@exe/message.cpp.o' -c ../src/task_3/message.cpp",
     "file": "../src/task_3/message.cpp",
     "output": "src/task_3/6fc89d1@@task_3@exe/message.cpp.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/message_test.cc.o' -MF 'src/test/c644cb3@@message_test@exe/message_test.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/message_test.cc.o' -c ../src/test/message_test.cc",
+    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/message_test.cc.o' -MF 'src/test/c644cb3@@message_test@exe/message_test.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/message_test.cc.o' -c ../src/test/message_test.cc",
     "file": "../src/test/message_test.cc",
     "output": "src/test/c644cb3@@message_test@exe/message_test.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
     "file": "/usr/src/gtest/src/gtest-all.cc",
     "output": "src/test/c644cb3@@message_test@exe/gtest-all.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "command": "c++ -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@message_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
     "file": "/usr/src/gtest/src/gtest_main.cc",
     "output": "src/test/c644cb3@@message_test@exe/gtest_main.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o' -c ../src/test/cat_test.cc",
+    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/cat_test.cc.o' -c ../src/test/cat_test.cc",
     "file": "../src/test/cat_test.cc",
     "output": "src/test/c644cb3@@cat_test@exe/cat_test.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
     "file": "/usr/src/gtest/src/gtest-all.cc",
     "output": "src/test/c644cb3@@cat_test@exe/gtest-all.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "command": "c++ -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@cat_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
     "file": "/usr/src/gtest/src/gtest_main.cc",
     "output": "src/test/c644cb3@@cat_test@exe/gtest_main.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o' -c ../src/test/tie_test.cc",
+    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/tie_test.cc.o' -c ../src/test/tie_test.cc",
     "file": "../src/test/tie_test.cc",
     "output": "src/test/c644cb3@@tie_test@exe/tie_test.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
     "file": "/usr/src/gtest/src/gtest-all.cc",
     "output": "src/test/c644cb3@@tie_test@exe/gtest-all.cc.o"
   },
   {
     "directory": "/home/shumoff/CLionProjects/system_programming/task_3/build",
-    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "command": "c++ -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@tie_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
     "file": "/usr/src/gtest/src/gtest_main.cc",
     "output": "src/test/c644cb3@@tie_test@exe/gtest_main.cc.o"
   }

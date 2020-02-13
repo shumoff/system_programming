@@ -1,4 +1,5 @@
 [options]
+b_sanitize = address
 backend = ninja
 
 [properties]

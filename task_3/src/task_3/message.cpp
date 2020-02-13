@@ -18,7 +18,6 @@ int validate(const char * string, Types const & ... args) {
     return 0;
 }
 
-
 template <class firstType, class ... Types>
 int message(std::ostream & thread, const char * string, firstType const & first_arg, Types const & ... args) {
     if (validate(string, first_arg, args...))

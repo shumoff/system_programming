@@ -1,4 +1,4 @@
-Build started at 2020-02-13T20:24:16.304492
+Build started at 2020-02-13T22:02:22.231691
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -18,8 +18,8 @@ Adding test "tie"
 Build targets in project: 4
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
 Running compile:
-Working directory:  /tmp/tmp4pijqycx
-Command line:  c++ /tmp/tmp4pijqycx/testfile.cpp -o /tmp/tmp4pijqycx/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  /tmp/tmpoc3dlh9w
+Command line:  c++ /tmp/tmpoc3dlh9w/testfile.cpp -o /tmp/tmpoc3dlh9w/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
 
 Code:
  int i = static_cast<int>(0);
@@ -29,8 +29,8 @@ Compiler stderr:
  
 Compiler accepts -std=c++17: YES
 Running compile:
-Working directory:  /tmp/tmpiujrtxas
-Command line:  c++ /tmp/tmpiujrtxas/testfile.cpp -o /tmp/tmpiujrtxas/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmpsz0s6ctu
+Command line:  c++ /tmp/tmpsz0s6ctu/testfile.cpp -o /tmp/tmpsz0s6ctu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  

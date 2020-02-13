@@ -38,59 +38,59 @@ build PHONY: phony
 
 build src/task_3/6fc89d1@@task_3@exe/main.cpp.o: cpp_COMPILER ../src/task_3/main.cpp
  DEPFILE = src/task_3/6fc89d1@@task_3@exe/main.cpp.o.d
- ARGS = -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g
+ ARGS = -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g
 
 build src/task_3/6fc89d1@@task_3@exe/message.cpp.o: cpp_COMPILER ../src/task_3/message.cpp
  DEPFILE = src/task_3/6fc89d1@@task_3@exe/message.cpp.o.d
- ARGS = -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g
+ ARGS = -Isrc/task_3/6fc89d1@@task_3@exe -Isrc/task_3 -I../src/task_3 -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g
 
 build src/task_3/task_3: cpp_LINKER src/task_3/6fc89d1@@task_3@exe/main.cpp.o src/task_3/6fc89d1@@task_3@exe/message.cpp.o
- LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed
 
 build src/test/c644cb3@@message_test@exe/message_test.cc.o: cpp_COMPILER ../src/test/message_test.cc
  DEPFILE = src/test/c644cb3@@message_test@exe/message_test.cc.o.d
- ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@message_test@exe/gtest-all.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest-all.cc
  DEPFILE = src/test/c644cb3@@message_test@exe/gtest-all.cc.o.d
- ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@message_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest_main.cc
  DEPFILE = src/test/c644cb3@@message_test@exe/gtest_main.cc.o.d
- ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@message_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/message_test: cpp_LINKER src/test/c644cb3@@message_test@exe/message_test.cc.o src/test/c644cb3@@message_test@exe/gtest-all.cc.o src/test/c644cb3@@message_test@exe/gtest_main.cc.o
- LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed -pthread
 
 build src/test/c644cb3@@cat_test@exe/cat_test.cc.o: cpp_COMPILER ../src/test/cat_test.cc
  DEPFILE = src/test/c644cb3@@cat_test@exe/cat_test.cc.o.d
- ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@cat_test@exe/gtest-all.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest-all.cc
  DEPFILE = src/test/c644cb3@@cat_test@exe/gtest-all.cc.o.d
- ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@cat_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest_main.cc
  DEPFILE = src/test/c644cb3@@cat_test@exe/gtest_main.cc.o.d
- ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/cat_test: cpp_LINKER src/test/c644cb3@@cat_test@exe/cat_test.cc.o src/test/c644cb3@@cat_test@exe/gtest-all.cc.o src/test/c644cb3@@cat_test@exe/gtest_main.cc.o
- LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed -pthread
 
 build src/test/c644cb3@@tie_test@exe/tie_test.cc.o: cpp_COMPILER ../src/test/tie_test.cc
  DEPFILE = src/test/c644cb3@@tie_test@exe/tie_test.cc.o.d
- ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@tie_test@exe/gtest-all.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest-all.cc
  DEPFILE = src/test/c644cb3@@tie_test@exe/gtest-all.cc.o.d
- ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/c644cb3@@tie_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest_main.cc
  DEPFILE = src/test/c644cb3@@tie_test@exe/gtest_main.cc.o.d
- ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
 
 build src/test/tie_test: cpp_LINKER src/test/c644cb3@@tie_test@exe/tie_test.cc.o src/test/c644cb3@@tie_test@exe/gtest-all.cc.o src/test/c644cb3@@tie_test@exe/gtest_main.cc.o
- LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed -pthread
 
 # Test rules
 
