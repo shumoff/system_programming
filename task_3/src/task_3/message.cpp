@@ -2,11 +2,9 @@
 // Created by shumoff on 10.02.2020.
 //
 #include <ostream>
-#include <iostream>
-#include <sstream>
 
-template <class ... Args>
-int validate(std::ostream & stream, const char * string, Args const & ... args) {
+template <class ... Types>
+int validate(const char * string, Types const & ... args) {
     int str_args_amount = 0;
     const char *string_copy = string;
     while (*string_copy) {
@@ -21,27 +19,20 @@ int validate(std::ostream & stream, const char * string, Args const & ... args) 
 }
 
 
-template <class firstArg, class ... Args>
-int message(std::ostream & stream, const char * string, firstArg const & first_arg, Args const & ... args) {
-    if (validate(stream, string, first_arg, args...))
+template <class firstType, class ... Types>
+int message(std::ostream & thread, const char * string, firstType const & first_arg, Types const & ... args) {
+    if (validate(string, first_arg, args...))
         return 1;
 
     while (*string != '%')
-        stream << *string++;
+        thread << *string++;
     ++string;
-    stream << first_arg;
+    thread << first_arg;
     if constexpr (sizeof...(args) > 0)
-        message(stream, string, args...);
-
+        message(thread, string, args...);
     else {
         while (*string)
-            stream << *string++;
+            thread << *string++;
     }
     return 0;
-}
-
-void test() {
-    std::stringstream stream;
-    message(std::cout, "bac % + % = % bac", 'a', 2, 3.0);
-
 }

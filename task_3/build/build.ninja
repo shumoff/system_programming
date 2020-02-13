@@ -62,6 +62,36 @@ build src/test/c644cb3@@message_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/
 build src/test/message_test: cpp_LINKER src/test/c644cb3@@message_test@exe/message_test.cc.o src/test/c644cb3@@message_test@exe/gtest-all.cc.o src/test/c644cb3@@message_test@exe/gtest_main.cc.o
  LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
 
+build src/test/c644cb3@@cat_test@exe/cat_test.cc.o: cpp_COMPILER ../src/test/cat_test.cc
+ DEPFILE = src/test/c644cb3@@cat_test@exe/cat_test.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/c644cb3@@cat_test@exe/gtest-all.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest-all.cc
+ DEPFILE = src/test/c644cb3@@cat_test@exe/gtest-all.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/c644cb3@@cat_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest_main.cc
+ DEPFILE = src/test/c644cb3@@cat_test@exe/gtest_main.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@cat_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/cat_test: cpp_LINKER src/test/c644cb3@@cat_test@exe/cat_test.cc.o src/test/c644cb3@@cat_test@exe/gtest-all.cc.o src/test/c644cb3@@cat_test@exe/gtest_main.cc.o
+ LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
+
+build src/test/c644cb3@@tie_test@exe/tie_test.cc.o: cpp_COMPILER ../src/test/tie_test.cc
+ DEPFILE = src/test/c644cb3@@tie_test@exe/tie_test.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/c644cb3@@tie_test@exe/gtest-all.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest-all.cc
+ DEPFILE = src/test/c644cb3@@tie_test@exe/gtest-all.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/c644cb3@@tie_test@exe/gtest_main.cc.o: cpp_COMPILER /usr/src/gtest/src/gtest_main.cc
+ DEPFILE = src/test/c644cb3@@tie_test@exe/gtest_main.cc.o.d
+ ARGS = -Isrc/test/c644cb3@@tie_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread
+
+build src/test/tie_test: cpp_LINKER src/test/c644cb3@@tie_test@exe/tie_test.cc.o src/test/c644cb3@@tie_test@exe/gtest-all.cc.o src/test/c644cb3@@tie_test@exe/gtest_main.cc.o
+ LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -pthread
+
 # Test rules
 
 build meson-test: CUSTOM_COMMAND all PHONY
@@ -108,7 +138,7 @@ build meson-uninstall: CUSTOM_COMMAND PHONY
 
 build uninstall: phony meson-uninstall
 
-build all: phony src/task_3/task_3 src/test/message_test
+build all: phony src/task_3/task_3 src/test/message_test src/test/cat_test src/test/tie_test
 
 build clean: phony meson-clean
 

@@ -1,4 +1,4 @@
-Build started at 2020-02-13T16:43:53.402232
+Build started at 2020-02-13T20:24:16.304492
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -13,11 +13,13 @@ Build machine cpu family: x86_64
 Build machine cpu: x86_64
 Dependency gtest found: YES (cached)
 Adding test "message"
-Build targets in project: 2
+Adding test "cat"
+Adding test "tie"
+Build targets in project: 4
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
 Running compile:
-Working directory:  /tmp/tmpo7tgt__u
-Command line:  c++ /tmp/tmpo7tgt__u/testfile.cpp -o /tmp/tmpo7tgt__u/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  /tmp/tmp4pijqycx
+Command line:  c++ /tmp/tmp4pijqycx/testfile.cpp -o /tmp/tmp4pijqycx/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
 
 Code:
  int i = static_cast<int>(0);
@@ -27,8 +29,8 @@ Compiler stderr:
  
 Compiler accepts -std=c++17: YES
 Running compile:
-Working directory:  /tmp/tmp7j3_2lb0
-Command line:  c++ /tmp/tmp7j3_2lb0/testfile.cpp -o /tmp/tmp7j3_2lb0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmpiujrtxas
+Command line:  c++ /tmp/tmpiujrtxas/testfile.cpp -o /tmp/tmpiujrtxas/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  

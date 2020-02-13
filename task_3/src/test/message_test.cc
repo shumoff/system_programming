@@ -1,7 +1,6 @@
-#include <gtest/gtest.h> // заголовочный файл Google Test
+#include <gtest/gtest.h>
 #include <iostream>
 #include <sstream>
-#include <string>
 #include "task_3/message.cpp"
 
 TEST(message, mismatching_args_and_format_symbols) {
