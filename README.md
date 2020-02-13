@@ -1,9 +1,9 @@
 # system_programming
 University project on System Programming
 ### Tasks:
-- [x] 1 - Done
-- [x] 2 - Done
-- [x] 3 - Done
+- [x] 1
+- [x] 2
+- [x] 3
 - [ ] 4
 - [ ] 5
 - [ ] 6
