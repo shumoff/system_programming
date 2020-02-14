@@ -4,9 +4,9 @@ University project on System Programming
 - [x] 1
 - [x] 2
 - [x] 3
-- [x] 4
+- [ ] 4
 - [ ] 5
-- [ ] 6
+- [x] 6
 - [ ] 7
 - [ ] 8
 - [ ] 9
