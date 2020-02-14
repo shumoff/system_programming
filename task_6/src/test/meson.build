@@ -1,30 +1,30 @@
 gtest = dependency('gtest', main: true)
 test(
-    'message',
+    'trait',
     executable(
-        'message_test',
+        'trait_test',
         include_directories: src,
-        sources: ['message_test.cc'],
+        sources: ['trait_test.cc'],
         dependencies: [gtest]
     )
 )
 
 test(
-    'cat',
+    'polynomial',
     executable(
-        'cat_test',
+        'polynomial_test',
         include_directories: src,
-        sources: ['cat_test.cc'],
+        sources: ['polynomial_test.cc'],
         dependencies: [gtest]
     )
 )
 
 test(
-    'tie',
+    'schur_transform',
     executable(
-        'tie_test',
+        'schur_transform_test',
         include_directories: src,
-        sources: ['tie_test.cc'],
+        sources: ['schur_transform_test.cc'],
         dependencies: [gtest]
     )
 )

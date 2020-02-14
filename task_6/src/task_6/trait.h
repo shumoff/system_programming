@@ -13,15 +13,15 @@ struct Trait;
 
 template<class T>
 struct Trait<Circle<T>> {
-static unsigned size(const Circle<T>& c) {
-    return sizeof(c.get_radius());
+    static size_t size(Circle<T> &circle) {
+        return sizeof(circle.get_radius());
     }
 };
 
 template<class T>
 struct Trait<Rectangle<T>> {
-static unsigned size(const Rectangle<T>& r) {
-    return sizeof(r.get_a()) + sizeof(r.get_b());
+    static size_t size(Rectangle<T> &rectangle) {
+        return sizeof(rectangle.get_length()) + sizeof(rectangle.get_width());
     }
 };
 

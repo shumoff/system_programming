@@ -1,0 +1,122 @@
+Build started at 2020-02-15T02:49:27.008546
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.51.2
+Source dir: /home/shumoff/CLionProjects/system_programming/task_6
+Build dir: /home/shumoff/CLionProjects/system_programming/task_6/build
+Build type: native build
+Project name: task_6
+Project version: 0.1.0
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ -pipe -D_FILE_OFFSET_BITS=64 /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.cc -o /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.exe
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ -pipe -D_FILE_OFFSET_BITS=64 /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.cc -o /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/shumoff/CLionProjects/system_programming/task_6/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 7.4.0 "c++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at [None]
+Did not find pkg-config by name 'pkg-config'
+Found Pkg-config: NO
+Pkg-config binary for machine MachineChoice.HOST not found. Giving up.
+Running compile:
+Working directory:  /tmp/tmp81n777n8
+Command line:  c++ /tmp/tmp81n777n8/testfile.cpp -o /tmp/tmp81n777n8/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main() { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lgtest
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /tmp/tmpss50qenu
+Command line:  c++ /tmp/tmpss50qenu/testfile.cpp -o /tmp/tmpss50qenu/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main() {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /tmp/tmpfrj30b8i
+Command line:  c++ /tmp/tmpfrj30b8i/testfile.cpp -o /tmp/tmpfrj30b8i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpzxhxx4f7
+Command line:  c++ /tmp/tmpzxhxx4f7/testfile.cpp -o /tmp/tmpzxhxx4f7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main() { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lgtest_main
+collect2: error: ld returned 1 exit status
+
+Run-time dependency GTest found: YES (building self)
+Adding test "trait"
+Adding test "polynomial"
+Adding test "schur_transform"
+Build targets in project: 4
+Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpta36sy4e
+Command line:  c++ /tmp/tmpta36sy4e/testfile.cpp -o /tmp/tmpta36sy4e/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++17: YES

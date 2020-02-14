@@ -8,32 +8,32 @@
 #include <cmath>
 
 template <class T>
-class Rectangle {
-private:
-    T a, b;
-
+struct Rectangle {
 public:
-    Rectangle(T a, T b) : a(a), b(b) {}
+    Rectangle(T length, T width) : length_(length), width_(width) {}
 
-    void set_a(T a) {
-        this->a = a;
+    void set_length(T length) {
+        length_ = length;
     }
 
-    T get_a() const {
-        return a;
+    void set_width(T width) {
+        width_ = width;
     }
 
-    void set_b(T b) {
-        this->b = b;
+    T get_length() const {
+        return length_;
     }
 
-    T get_b() const {
-        return b;
+    T get_width() const {
+        return width_;
     }
 
     T square(){
-        return a * b;
+        return length_ * width_;
     }
+
+private:
+    T length_, width_;
 };
 
 #endif //TASK_6_RECTANGLE_H

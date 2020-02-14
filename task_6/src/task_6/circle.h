@@ -4,26 +4,28 @@
 
 #ifndef TASK_6_CIRCLE_H
 #define TASK_6_CIRCLE_H
+
 #include <cmath>
 
 template <class T>
-class Circle {
+struct Circle {
 public:
-    Circle(T radius) : radius(R) {}
+    explicit Circle(T radius) : radius_(radius) {}
 
-    void set_radius(T R) {
-        this->radius = R;
+    void set_radius(T radius) {
+        radius_ = radius;
     }
 
     T get_radius() const {
-        return radius;
+        return radius_;
     }
 
     T square() const {
-        return M_PI * pow(radius, 2);
+        return M_PI * pow(radius_, 2);
     }
 
 private:
     T radius_;
 };
+
 #endif //TASK_6_CIRCLE_H

@@ -1,0 +1,62 @@
+[
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/task_6/a803c92@@task_6@exe -Isrc/task_6 -I../src/task_6 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_6/a803c92@@task_6@exe/main.cpp.o' -MF 'src/task_6/a803c92@@task_6@exe/main.cpp.o.d' -o 'src/task_6/a803c92@@task_6@exe/main.cpp.o' -c ../src/task_6/main.cpp",
+    "file": "../src/task_6/main.cpp",
+    "output": "src/task_6/a803c92@@task_6@exe/main.cpp.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@trait_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@trait_test@exe/trait_test.cc.o' -MF 'src/test/c644cb3@@trait_test@exe/trait_test.cc.o.d' -o 'src/test/c644cb3@@trait_test@exe/trait_test.cc.o' -c ../src/test/trait_test.cc",
+    "file": "../src/test/trait_test.cc",
+    "output": "src/test/c644cb3@@trait_test@exe/trait_test.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@trait_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@trait_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@trait_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@trait_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "file": "/usr/src/gtest/src/gtest-all.cc",
+    "output": "src/test/c644cb3@@trait_test@exe/gtest-all.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@trait_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@trait_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@trait_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@trait_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "file": "/usr/src/gtest/src/gtest_main.cc",
+    "output": "src/test/c644cb3@@trait_test@exe/gtest_main.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@polynomial_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@polynomial_test@exe/polynomial_test.cc.o' -MF 'src/test/c644cb3@@polynomial_test@exe/polynomial_test.cc.o.d' -o 'src/test/c644cb3@@polynomial_test@exe/polynomial_test.cc.o' -c ../src/test/polynomial_test.cc",
+    "file": "../src/test/polynomial_test.cc",
+    "output": "src/test/c644cb3@@polynomial_test@exe/polynomial_test.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@polynomial_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@polynomial_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@polynomial_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@polynomial_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "file": "/usr/src/gtest/src/gtest-all.cc",
+    "output": "src/test/c644cb3@@polynomial_test@exe/gtest-all.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@polynomial_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@polynomial_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@polynomial_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@polynomial_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "file": "/usr/src/gtest/src/gtest_main.cc",
+    "output": "src/test/c644cb3@@polynomial_test@exe/gtest_main.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@schur_transform_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@schur_transform_test@exe/schur_transform_test.cc.o' -MF 'src/test/c644cb3@@schur_transform_test@exe/schur_transform_test.cc.o.d' -o 'src/test/c644cb3@@schur_transform_test@exe/schur_transform_test.cc.o' -c ../src/test/schur_transform_test.cc",
+    "file": "../src/test/schur_transform_test.cc",
+    "output": "src/test/c644cb3@@schur_transform_test@exe/schur_transform_test.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@schur_transform_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@schur_transform_test@exe/gtest-all.cc.o' -MF 'src/test/c644cb3@@schur_transform_test@exe/gtest-all.cc.o.d' -o 'src/test/c644cb3@@schur_transform_test@exe/gtest-all.cc.o' -c /usr/src/gtest/src/gtest-all.cc",
+    "file": "/usr/src/gtest/src/gtest-all.cc",
+    "output": "src/test/c644cb3@@schur_transform_test@exe/gtest-all.cc.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_6/build",
+    "command": "c++ -Isrc/test/c644cb3@@schur_transform_test@exe -Isrc/test -I../src/test -Isrc -I../src -I/usr/src/gtest -I/usr/src/gtest/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -pthread -MD -MQ 'src/test/c644cb3@@schur_transform_test@exe/gtest_main.cc.o' -MF 'src/test/c644cb3@@schur_transform_test@exe/gtest_main.cc.o.d' -o 'src/test/c644cb3@@schur_transform_test@exe/gtest_main.cc.o' -c /usr/src/gtest/src/gtest_main.cc",
+    "file": "/usr/src/gtest/src/gtest_main.cc",
+    "output": "src/test/c644cb3@@schur_transform_test@exe/gtest_main.cc.o"
+  }
+]

@@ -21,7 +21,7 @@ public:
     size_t size() {
         return arrays_.size();
     }
-    
+
 private:
     std::array<T*, M> arrays_;
 };

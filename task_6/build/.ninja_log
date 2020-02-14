@@ -1,0 +1,16 @@
+# ninja log v5
+0	738	1581724173808023232	src/task_6/a803c92@@task_6@exe/main.cpp.o	ad900b0aa630a54
+738	927	1581724174000024535	src/task_6/task_6	79e2ea39c4d9549f
+0	2474	1581724175548035044	src/test/c644cb3@@trait_test@exe/gtest_main.cc.o	6a52a796211edf75
+1	3062	1581724176132039009	src/test/c644cb3@@polynomial_test@exe/polynomial_test.cc.o	22a4f9f38d07ad18
+0	3383	1581724176456041209	src/test/c644cb3@@trait_test@exe/trait_test.cc.o	26e7d60039e14468
+927	3826	1581724176896044197	src/test/c644cb3@@polynomial_test@exe/gtest_main.cc.o	6470b61b48f3f064
+3383	5285	1581724178348054059	src/test/c644cb3@@schur_transform_test@exe/gtest_main.cc.o	aeb2712ae59968ec
+3062	5753	1581724178824057292	src/test/c644cb3@@schur_transform_test@exe/schur_transform_test.cc.o	508a00a2e34f1d3
+0	7139	1581724180208066695	src/test/c644cb3@@trait_test@exe/gtest-all.cc.o	fac56c2fa853d6ac
+7139	7410	1581724180480068543	src/test/trait_test	6c38746886100ad8
+2	7486	1581724180556069060	src/test/c644cb3@@polynomial_test@exe/gtest-all.cc.o	f608fd3893beb166
+7486	7685	1581724180756070419	src/test/polynomial_test	946f01745ba31613
+2474	8505	1581724181576075992	src/test/c644cb3@@schur_transform_test@exe/gtest-all.cc.o	914ba7b86540de5d
+8505	8676	1581724181748077161	src/test/schur_transform_test	8ccedd0d4a400433
+8676	8960	0	meson-test	9a4327b058aef882
