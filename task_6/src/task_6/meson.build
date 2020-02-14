@@ -1,10 +1,10 @@
-task_3_src = files([
+task_6_src = files([
     'main.cpp'
 ])
 executable(
-    'task_3',
+    'task_6',
     include_directories: src,
-    sources: task_3_src,
+    sources: task_6_src,
     dependencies: [],
     install: true
 )
