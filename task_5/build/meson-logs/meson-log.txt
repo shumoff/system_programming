@@ -1,4 +1,4 @@
-Build started at 2020-02-15T04:45:08.725854
+Build started at 2020-02-15T04:47:26.906709
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -8,28 +8,79 @@ Build dir: /home/shumoff/CLionProjects/system_programming/task_5/build
 Build type: native build
 Project name: task_5
 Project version: 0.1.0
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ -pipe -D_FILE_OFFSET_BITS=64 /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.cc -o /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.exe
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ -pipe -D_FILE_OFFSET_BITS=64 /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.cc -o /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/shumoff/CLionProjects/system_programming/task_5/build/meson-private/sanitycheckcpp.exe
 C++ compiler for the host machine: c++ (gcc 7.4.0 "c++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
-Dependency gtest found: YES (cached)
-Adding test "ostream_iterator_test"
-Adding test "merge_sort_test"
-Build targets in project: 3
-Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at [None]
+Did not find pkg-config by name 'pkg-config'
+Found Pkg-config: NO
+Pkg-config binary for machine MachineChoice.HOST not found. Giving up.
 Running compile:
-Working directory:  /tmp/tmpvj15nrnj
-Command line:  c++ /tmp/tmpvj15nrnj/testfile.cpp -o /tmp/tmpvj15nrnj/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  /tmp/tmpmxelfbjh
+Command line:  c++ /tmp/tmpmxelfbjh/testfile.cpp -o /tmp/tmpmxelfbjh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
- int i = static_cast<int>(0);
+ int main() { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lgtest
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /tmp/tmp5amwbnzh
+Command line:  c++ /tmp/tmp5amwbnzh/testfile.cpp -o /tmp/tmp5amwbnzh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main() {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
 Compiler stdout:
  
 Compiler stderr:
  
-Compiler accepts -std=c++17: YES
+Program stdout:
+
+8
+
+Program stderr:
+
+
 Running compile:
-Working directory:  /tmp/tmp2g0d5kp5
-Command line:  c++ /tmp/tmp2g0d5kp5/testfile.cpp -o /tmp/tmp2g0d5kp5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmps39xuhuy
+Command line:  c++ /tmp/tmps39xuhuy/testfile.cpp -o /tmp/tmps39xuhuy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  
@@ -40,3 +91,31 @@ libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../
 
 Compiler stderr:
  
+Running compile:
+Working directory:  /tmp/tmp3th4bhof
+Command line:  c++ /tmp/tmp3th4bhof/testfile.cpp -o /tmp/tmp3th4bhof/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main() { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lgtest_main
+collect2: error: ld returned 1 exit status
+
+Run-time dependency GTest found: YES (building self)
+Adding test "ostream_iterator_test"
+Adding test "merge_sort_test"
+Build targets in project: 3
+Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpmf5kxxuf
+Command line:  c++ /tmp/tmpmf5kxxuf/testfile.cpp -o /tmp/tmpmf5kxxuf/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++17: YES
