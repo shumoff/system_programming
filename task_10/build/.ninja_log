@@ -1,0 +1,8 @@
+# ninja log v5
+0	412	1581726539521103994	build.ninja	d91f60c9557bc96c
+1	1074	1581726540685112539	src/test/c644cb3@@rotate_vector_test@exe/rotate_vector_test.cc.o	2a229b9820a83420
+1	1387	1581726540997114829	src/test/c644cb3@@rotate_vector_test@exe/gtest_main.cc.o	e278a3584616cd69
+0	4579	1581726544189138261	src/test/c644cb3@@rotate_vector_test@exe/gtest-all.cc.o	fa812e681f72158b
+4580	4773	1581726544385139701	src/test/rotate_vector_test	ae669ae0443ddff7
+4773	5037	0	meson-test	9a4327b058aef882
+0	431	0	meson-coverage-text	fbb992814fe4c20c

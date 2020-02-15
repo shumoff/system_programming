@@ -1,0 +1,1 @@
+[{"cmd": ["/home/shumoff/CLionProjects/system_programming/task_10/build/src/test/rotate_vector_test"], "env": {}, "name": "rotate_vector", "workdir": null, "timeout": 30, "suite": ["task_10"], "is_parallel": true}]
