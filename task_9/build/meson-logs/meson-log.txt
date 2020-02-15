@@ -1,4 +1,4 @@
-Build started at 2020-02-15T05:54:04.137385
+Build started at 2020-02-15T05:56:17.874445
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -45,8 +45,8 @@ Did not find pkg-config by name 'pkg-config'
 Found Pkg-config: NO
 Pkg-config binary for machine MachineChoice.HOST not found. Giving up.
 Running compile:
-Working directory:  /tmp/tmp3rjpethz
-Command line:  c++ /tmp/tmp3rjpethz/testfile.cpp -o /tmp/tmp3rjpethz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmp3pl4xs7x
+Command line:  c++ /tmp/tmp3pl4xs7x/testfile.cpp -o /tmp/tmp3pl4xs7x/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main() { return 0; }
@@ -57,8 +57,8 @@ Compiler stderr:
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmprt54mot_
-Command line:  c++ /tmp/tmprt54mot_/testfile.cpp -o /tmp/tmprt54mot_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+Working directory:  /tmp/tmpd76cdouc
+Command line:  c++ /tmp/tmpd76cdouc/testfile.cpp -o /tmp/tmpd76cdouc/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
 
 Code:
  #include<stdio.h>
@@ -79,8 +79,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /tmp/tmp686kd785
-Command line:  c++ /tmp/tmp686kd785/testfile.cpp -o /tmp/tmp686kd785/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmprbaymbom
+Command line:  c++ /tmp/tmprbaymbom/testfile.cpp -o /tmp/tmprbaymbom/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  
@@ -92,8 +92,8 @@ libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../
 Compiler stderr:
  
 Running compile:
-Working directory:  /tmp/tmpndgfgzhv
-Command line:  c++ /tmp/tmpndgfgzhv/testfile.cpp -o /tmp/tmpndgfgzhv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmppjnjkn1p
+Command line:  c++ /tmp/tmppjnjkn1p/testfile.cpp -o /tmp/tmppjnjkn1p/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main() { return 0; }
@@ -118,8 +118,8 @@ Program doxygen found: YES (/usr/bin/doxygen)
 Build targets in project: 15
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /home/shumoff/.local/bin/ninja
 Running compile:
-Working directory:  /tmp/tmp056wqcf1
-Command line:  c++ /tmp/tmp056wqcf1/testfile.cpp -o /tmp/tmp056wqcf1/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  /tmp/tmpdot5nk9f
+Command line:  c++ /tmp/tmpdot5nk9f/testfile.cpp -o /tmp/tmpdot5nk9f/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++17 
 
 Code:
  int i = static_cast<int>(0);
