@@ -1,0 +1,5 @@
+# ninja log v5
+0	722	1581776028726583521	src/task_14/f3e49d0@@task_14@exe/shell.cpp.o	a27a2a69dbc35c58
+0	774	1581776028778585170	src/task_14/f3e49d0@@task_14@exe/main.cpp.o	c13a8be9c3925cbf
+1	879	1581776028882588469	src/task_14/f3e49d0@@task_14@exe/tokenizer.cpp.o	681b35a4b1d3d315
+879	969	1581776028974591386	src/task_14/task_14	d694b47a88292ca9

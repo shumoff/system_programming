@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_14/build",
+    "command": "c++ -Isrc/task_14/f3e49d0@@task_14@exe -Isrc/task_14 -I../src/task_14 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_14/f3e49d0@@task_14@exe/main.cpp.o' -MF 'src/task_14/f3e49d0@@task_14@exe/main.cpp.o.d' -o 'src/task_14/f3e49d0@@task_14@exe/main.cpp.o' -c ../src/task_14/main.cpp",
+    "file": "../src/task_14/main.cpp",
+    "output": "src/task_14/f3e49d0@@task_14@exe/main.cpp.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_14/build",
+    "command": "c++ -Isrc/task_14/f3e49d0@@task_14@exe -Isrc/task_14 -I../src/task_14 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_14/f3e49d0@@task_14@exe/shell.cpp.o' -MF 'src/task_14/f3e49d0@@task_14@exe/shell.cpp.o.d' -o 'src/task_14/f3e49d0@@task_14@exe/shell.cpp.o' -c ../src/task_14/shell.cpp",
+    "file": "../src/task_14/shell.cpp",
+    "output": "src/task_14/f3e49d0@@task_14@exe/shell.cpp.o"
+  },
+  {
+    "directory": "/home/shumoff/CLionProjects/system_programming/task_14/build",
+    "command": "c++ -Isrc/task_14/f3e49d0@@task_14@exe -Isrc/task_14 -I../src/task_14 -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++17 -g -MD -MQ 'src/task_14/f3e49d0@@task_14@exe/tokenizer.cpp.o' -MF 'src/task_14/f3e49d0@@task_14@exe/tokenizer.cpp.o.d' -o 'src/task_14/f3e49d0@@task_14@exe/tokenizer.cpp.o' -c ../src/task_14/tokenizer.cpp",
+    "file": "../src/task_14/tokenizer.cpp",
+    "output": "src/task_14/f3e49d0@@task_14@exe/tokenizer.cpp.o"
+  }
+]
