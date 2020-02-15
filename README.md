@@ -10,7 +10,7 @@ University project on System Programming
 - [ ] 7
 - [ ] 8
 - [ ] 9
-- [ ] 10
+- [x] 10
 - [ ] 11
 - [ ] 12
 - [ ] 13
