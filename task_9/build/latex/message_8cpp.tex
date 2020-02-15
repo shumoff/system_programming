@@ -1,0 +1,62 @@
+\hypertarget{message_8cpp}{}\section{src/task\+\_\+9/task\+\_\+3/message.cpp File Reference}
+\label{message_8cpp}\index{src/task\+\_\+9/task\+\_\+3/message.\+cpp@{src/task\+\_\+9/task\+\_\+3/message.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+Include dependency graph for message.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class ... Types$>$ }\\int \hyperlink{message_8cpp_a522c474c712a6baef6eb7bcbb3fb0913}{validate} (const char $\ast$string, Types const \&... args)
+\begin{DoxyCompactList}\small\item\em Выполняет проверку на соответсвие количества аргументов и символов форматирования. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class first\+Type , class ... Types$>$ }\\int \hyperlink{message_8cpp_a573b163ed999e9f0ce97cd8fbe518648}{message} (std\+::ostream \&thread, const char $\ast$string, first\+Type const \&first\+\_\+arg, Types const \&... args)
+\begin{DoxyCompactList}\small\item\em Форматирует строку и выводит результат в поток вывода. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{message_8cpp_a573b163ed999e9f0ce97cd8fbe518648}\label{message_8cpp_a573b163ed999e9f0ce97cd8fbe518648}} 
+\index{message.\+cpp@{message.\+cpp}!message@{message}}
+\index{message@{message}!message.\+cpp@{message.\+cpp}}
+\subsubsection{\texorpdfstring{message()}{message()}}
+{\footnotesize\ttfamily template$<$class first\+Type , class ... Types$>$ \\
+int message (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{thread,  }\item[{const char $\ast$}]{string,  }\item[{first\+Type const \&}]{first\+\_\+arg,  }\item[{Types const \&...}]{args }\end{DoxyParamCaption})}
+
+
+
+Форматирует строку и выводит результат в поток вывода. 
+
+\begin{DoxyDate}{Date}
+2020-\/02-\/15 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em thread} & поток вывода \\
+\hline
+\mbox{\tt in}  & {\em string} & строка, которую нужно отформатировать \\
+\hline
+\mbox{\tt in}  & {\em first\+\_\+arg} & первый аргумент для форматирования \\
+\hline
+\mbox{\tt in}  & {\em args} & остальные аргументы для форматирования \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{message_8cpp_a522c474c712a6baef6eb7bcbb3fb0913}\label{message_8cpp_a522c474c712a6baef6eb7bcbb3fb0913}} 
+\index{message.\+cpp@{message.\+cpp}!validate@{validate}}
+\index{validate@{validate}!message.\+cpp@{message.\+cpp}}
+\subsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily template$<$class ... Types$>$ \\
+int validate (\begin{DoxyParamCaption}\item[{const char $\ast$}]{string,  }\item[{Types const \&...}]{args }\end{DoxyParamCaption})}
+
+
+
+Выполняет проверку на соответсвие количества аргументов и символов форматирования. 
+
+\begin{DoxyDate}{Date}
+2020-\/02-\/15 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em string} & строка, которую нужно отформатировать \\
+\hline
+\mbox{\tt in}  & {\em args} & аргументы для форматирования \\
+\hline
+\end{DoxyParams}

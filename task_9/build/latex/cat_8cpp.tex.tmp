@@ -1,0 +1,29 @@
+\hypertarget{cat_8cpp}{}\section{src/task\+\_\+9/task\+\_\+3/cat.cpp File Reference}
+\label{cat_8cpp}\index{src/task\+\_\+9/task\+\_\+3/cat.\+cpp@{src/task\+\_\+9/task\+\_\+3/cat.\+cpp}}
+{\ttfamily \#include $<$array$>$}\newline
+Include dependency graph for cat.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T , std\+::size\+\_\+t first\+Size, std\+::size\+\_\+t second\+Size$>$ }\\std\+::array$<$ T, first\+Size+second\+Size $>$ \hyperlink{cat_8cpp_a868e0c44bc09a691cc34ac2ec6f365ef}{cat} (std\+::array$<$ T, first\+Size $>$ const first\+\_\+array, std\+::array$<$ T, second\+Size $>$ const second\+\_\+array)
+\item 
+{\footnotesize template$<$class first\+Type , class ... Types$>$ }\\auto \hyperlink{cat_8cpp_ac53e454b605333a138447365bc47e8a1}{cat} (first\+Type first\+\_\+array, Types ... arrays)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{cat_8cpp_a868e0c44bc09a691cc34ac2ec6f365ef}\label{cat_8cpp_a868e0c44bc09a691cc34ac2ec6f365ef}} 
+\index{cat.\+cpp@{cat.\+cpp}!cat@{cat}}
+\index{cat@{cat}!cat.\+cpp@{cat.\+cpp}}
+\subsubsection{\texorpdfstring{cat()}{cat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t first\+Size, std\+::size\+\_\+t second\+Size$>$ \\
+std\+::array$<$T, first\+Size + second\+Size$>$ cat (\begin{DoxyParamCaption}\item[{std\+::array$<$ T, first\+Size $>$ const}]{first\+\_\+array,  }\item[{std\+::array$<$ T, second\+Size $>$ const}]{second\+\_\+array }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{cat_8cpp_ac53e454b605333a138447365bc47e8a1}\label{cat_8cpp_ac53e454b605333a138447365bc47e8a1}} 
+\index{cat.\+cpp@{cat.\+cpp}!cat@{cat}}
+\index{cat@{cat}!cat.\+cpp@{cat.\+cpp}}
+\subsubsection{\texorpdfstring{cat()}{cat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class first\+Type , class ... Types$>$ \\
+auto cat (\begin{DoxyParamCaption}\item[{first\+Type}]{first\+\_\+array,  }\item[{Types ...}]{arrays }\end{DoxyParamCaption})}
+

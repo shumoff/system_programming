@@ -1,0 +1,4 @@
+PROJECT_NAME = "System Programming"
+OUTPUT_DIRECTORY = /home/shumoff/CLionProjects/system_programming/task_9/build
+INPUT = /home/shumoff/CLionProjects/system_programming/task_9/src/task_9/task_3
+EXTRACT_ALL = YES
