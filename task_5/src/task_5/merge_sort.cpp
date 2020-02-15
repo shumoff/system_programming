@@ -23,31 +23,21 @@ void merge_sort(T first, T last) {
         if(n_1 == center)
             while(n_2 != last) {
                 list[size++] = *n_2++;
-//                ++n_2;
-//                ++size;
             }
         else if(n_2 == last)
             while(n_1 != center) {
                 list[size++] = *n_1++;
-//                ++n_1;
-//                ++size;
             }
         else if(*n_1 < *n_2) {
             list[size++] = *n_1++;
-//            ++n_1;
-//            ++size;
         }
         else {
             list[size++] = *n_2++;
-//            ++n_2;
-//            ++size;
         }
 
     size = 0;
     while(first != last) {
         *first++ = list[size++];
-//        ++size;
-//        ++first;
     }
     delete[] list;
 }
